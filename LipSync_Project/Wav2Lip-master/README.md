@@ -10,8 +10,10 @@ python lip_sync.py --video_path path/to/video.mp4 --audio_path path/to/audio.wav
 Video File: Provide the link to the video you want to lip-sync.
 Audio File: Provide the link to the corresponding audio file.
 
-2.Run the lip-syncing script:
-python lip_sync.py --video_path path/to/video.mp4 --audio_path path/to/audio.wav --output_path path/to/output.mp4
+2.Run the lip-syncing script
+ --video_path path/to/video.mp4 
+ --audio_path path/to/audio.wav 
+ --output_path path/to/result_voice.mp4
 Replace path/to/video.mp4, path/to/audio.wav, and path/to/output.mp4 with your file paths.
 
 3.Wait for the process to complete. The script will align the audio with the video and generate a lip-synced output video.
