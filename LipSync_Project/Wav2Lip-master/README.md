@@ -1,15 +1,6 @@
 Lip-Synced Video Generation
 This project aims to generate a lip-synced video by aligning audio with a video using a pre-trained model. By following the instructions below, you can create your own lip-synced videos seamlessly.
 
-Getting Started
-Prerequisites
-Before you begin, make sure you have the following prerequisites installed:
-
-Python (3.6 or higher version)
-Git
-FFmpeg
-Pre-trained lip-syncing model
-
 Usage
 To create a lip-synced video, follow these steps:
 python lip_sync.py --video_path path/to/video.mp4 --audio_path path/to/audio.wav --output_path path/to/result_voice.mp4
